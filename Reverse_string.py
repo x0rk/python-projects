@@ -1,6 +1,8 @@
 def reverse(s):
-    r = s[::-1]
-    return r
+    str1 = "" 
+    for i in s: 
+        str1 = i + str1
+    return str1
 
-str1 = input("Enter a string: ")
-print("The Mirror image of ", str1, " is ", reverse(str1))
+string = input("Enter a string: ")
+print("The reversed string is",reverse(string))

@@ -6,7 +6,7 @@ lst = []
 for i in inp:
     lst.append(i)
 
-s = os.system("cls")
+s = os.system("clear")
 k = 0
 
 while k != 1:
@@ -17,4 +17,4 @@ while k != 1:
        print(lst[ind], end="")
        print(inp[ind+1:])
        ind += 1
-       s = os.system('cls')
+       s = os.system('clear')
