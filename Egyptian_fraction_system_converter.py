@@ -17,7 +17,7 @@ td = d
 numlst = []
 denlst = []
 
-print("The Fraction {}/{} can be represented in Egyptian Fraction System as".format(n,d))
+print("\nThe Fraction {}/{} can be represented in Egyptian Fraction System as\n".format(n,d))
 
 if n == 1:
     print("{}/{}".format(n,d))
@@ -38,3 +38,4 @@ for i in range(0,len(numlst)):
         print("{}/{}".format(numlst[i],denlst[i]), end = " ")
     else:
         print("{}/{} +".format(numlst[i],denlst[i]), end = " ")
+print('\n')
