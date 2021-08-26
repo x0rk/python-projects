@@ -10,3 +10,13 @@ def drt(x):
     return x
 
 #print(drt(n))
+
+def drt2(x):
+    k = 0
+    while x:
+        r = x % 10 
+        x //= 10
+        k += r
+    return k if len(str(k)) == 1 else drt2(k)
+
+#print(drt2(n))
