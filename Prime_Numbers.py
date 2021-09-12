@@ -1,4 +1,4 @@
-#x = int(input("Enter the number to get all the prime numbers lesser than the number: "))
+x = int(input("Enter the number to get all the prime numbers lesser than the number: "))
 
 def primes(n):
     p = [2]
@@ -16,4 +16,4 @@ def primes(n):
         s = 0    
     return p
 
-#print('There are {} Prime numbers <= {}'.format(len(primes(x)),x),'\n',primes(x))
+print('There are {} Prime numbers <= {}'.format(len(primes(x)),x),'\n',primes(x))
